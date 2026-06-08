@@ -18,3 +18,7 @@ A persistência é realizada por meio do comando `INSERT ... ON CONFLICT (id_tra
 * Se a transação já existir, seus dados são atualizados em vez de criar um novo registro.
 
 Essa estratégia permite que o processamento seja executado mais de uma vez sem gerar duplicidades, o que é especialmente útil em situações de reprocessamento, recuperação de falhas ou sincronização de dados. Dessa forma, o sistema mantém a consistência das informações e garante que cada transação seja armazenada apenas uma vez.
+
+Alguns problemas que estive tendo:
+
+- Permissão em arquivos, o container subia mas não conseguia copiar resolveu somente aplicando chmod 500 para subir como Root, pois o arquivo estava com permissão para usuarios local
