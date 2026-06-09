@@ -10,8 +10,6 @@ Como acessar Web:
 
 http://Seu-IP:8080
 
-      POSTGRES_USER: nogtech
-      POSTGRES_PASSWORD: nogtech123
 
 ### Banco
 User: nogtech
