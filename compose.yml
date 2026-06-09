@@ -21,7 +21,7 @@ x-airflow-common: &airflow-common
 
 services:
 
-  # Banco interno metadados 
+  # Banco interno metadados(User, senha e e-mail)
   postgres-airflow:
     image: postgres:15
     container_name: postgres-metadados
