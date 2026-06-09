@@ -6,7 +6,24 @@ Comando para subir o projeto:
 
 Docker compose up -d
 
-Estratégia usada paraa idepotência no qual escolhi:
+Como acessar Web:
+
+http://Seu-IP:8080
+
+      POSTGRES_USER: nogtech
+      POSTGRES_PASSWORD: nogtech123
+
+### Banco
+User: nogtech
+Senha: nogtech123
+porta: 5433
+
+### Acesso Web
+User: admin
+Senha: admin
+porta: 8080
+
+Estratégia usada para idepotência no qual escolhi:
 
 Para garantir a integridade dos dados e evitar registros duplicados, foi utilizada uma chave natural (`id_transacao`) em conjunto com a operação de **UPSERT**.
 
